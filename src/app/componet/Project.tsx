@@ -32,6 +32,16 @@ const Projects = () => {
       liveLink: 'https://drive.google.com/file/d/1vo7P4_IBXgvq81uyUVvx4ex9l77l3kPW/view?usp=drive_link',
       category: '3D horror Game'
     },
+    {
+      id: 4,
+      title: 'Jungle Adventure 2D',
+      description: 'Player Mechanics: Smooth movement, jumping, falling, and damage system using Rigidbody2D and a state-driven animation setup (Idle, Run, Jump, Fall, Hurt). Enemy Interaction: Enemy patrols (Frog, Opossum, Bear); player can take damage or stomp to destroy them. Collision & Collectibles: Cherries collectible system; player respawns on death or falling. UI System: Real-time health and score display with dynamic updates. Audio Feedback: Background music, hurt SFX, and restart SFX with contextual playback control. Game Flow: Auto level restart on death using SceneManager; animation transitions managed via Animator + custom logic.',
+      techStack: ['Unity', 'C#', 'Blender', 'Unity Animator','audacity', 'freesoind.org','Unity Assest'],
+      image: '/project4.png',
+      codeLink: 'https://github.com/karan-kunn/2D-Jungle-Adventure-DEMO-DEV' ,
+      liveLink: 'https://github.com/karan-kunn/Jungle_game_LV1',
+      category: '2D Adventure Game'
+    },
   ];
 
   return (
