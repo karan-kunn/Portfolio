@@ -4,25 +4,61 @@ import React from 'react';
 const Skills = () => {
   const skills = [
 
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg', title: 'C#' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg', title: 'Unity' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg', title: 'Blender (Basic)' },
-    { img: 'https://cdn-icons-png.flaticon.com/512/5968/5968853.png', title: 'Canva' },
-    { img: 'https://avatars.githubusercontent.com/u/95789578?s=200&v=4', title: 'AI Tools (ChatGPT, Midjourney)' },
-    { img: 'https://cdn-icons-png.flaticon.com/512/4088/4088943.png', title: 'Game Design & Level Design' },
-    { img: 'https://cdn-icons-png.flaticon.com/512/3208/3208710.png', title: 'Playtesting & Iteration' },
-    { img: 'https://cdn-icons-png.flaticon.com/512/2111/2111432.png', title: 'GitHub' },
-    { img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png', title: 'Git' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg', title: 'C++' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg', title: 'HTML' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg', title: 'CSS' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg', title: 'JavaScript' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg', title: 'React' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-line.svg', title: 'Next.js' },
-    { img: 'https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png', title: 'Tailwind CSS' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg', title: 'MySQL' },
-    { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg', title: 'Python' },
-  ];
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg',
+    title: 'Unity Engine',
+  },
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
+    title: 'C# (Gameplay Programming)',
+  },
+  { img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg', title: 'C++' },
+
+  // GAME DESIGN & LEVEL DESIGN (SYMBOLIC ICONS – SAME STYLE)
+  {
+    img: 'https://cdn-icons-png.flaticon.com/512/1261/1261163.png',
+    title: 'Game & Systems Design',
+  },
+  {
+    img: 'https://cdn-icons-png.flaticon.com/512/747/747086.png',
+    title: 'Level Design',
+  },
+  {
+    img: 'https://cdn-icons-png.flaticon.com/512/3595/3595455.png',
+    title: 'Gameplay Prototyping & Iteration',
+  },
+
+  // DESIGN & CONTENT CREATION
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg',
+    title: 'Blender (Basic 3D Assets)',
+  },
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg',
+    title: 'Figma (UI & UX Flow)',
+  },
+
+  // PIPELINE & COLLABORATION
+  {
+    img: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+    title: 'Git (Version Control)',
+  },
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg',
+    title: 'GitHub (Collaboration)',
+  },
+
+  // SUPPORTING TOOLS
+  {
+    img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg',
+    title: 'Python (Scripting Basics)',
+  },
+  {
+    img: 'https://cdn-icons-png.flaticon.com/512/4712/4712109.png',
+    title: 'AI Tools (Design & Prototyping)',
+  },
+];
+
 
   return (
     <section className="skills" id="skills">

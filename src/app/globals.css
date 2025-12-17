@@ -1179,6 +1179,11 @@ section {
     font-size: 1rem;
     padding: 0.4rem 0.8rem;
   }
+  .project-video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  }
   
   .project-link {
     padding: 0.8rem 1.5rem;
