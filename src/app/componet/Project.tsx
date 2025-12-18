@@ -1,5 +1,4 @@
 "use client";
-import { video } from 'framer-motion/client';
 import React, { useEffect, useRef } from 'react';
 
 const Projects = () => {
@@ -52,7 +51,7 @@ const Projects = () => {
       title: 'Horro design Room Layout',
       description: 'Just shared a look at one of my horror game level layouts — a space designed to create tension 😱 , mystery 🧐 , and environmental storytelling 😎. Every room in this map plays a role in building atmosphere, pacing, and player curiosity. 😃  This project helped me explore how layout, lighting, and narrative hints can work together to shape the player’s experience. Excited to keep improving and sharing more of my design work! ☺️ .',
       techStack: ['Unity', 'C#', 'Blender', 'Unity Animator','Audacity', 'Freesound.org','Unity Asset'],
-      image: '/project5.png',
+      image: '/Level-layout1.png',
       category: 'Level layout'
     },
     
