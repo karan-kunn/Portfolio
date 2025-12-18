@@ -50,10 +50,24 @@ const Projects = () => {
       id: 5,
       title: 'Horro design Room Layout',
       description: 'Just shared a look at one of my horror game level layouts — a space designed to create tension 😱 , mystery 🧐 , and environmental storytelling 😎. Every room in this map plays a role in building atmosphere, pacing, and player curiosity. 😃  This project helped me explore how layout, lighting, and narrative hints can work together to shape the player’s experience. Excited to keep improving and sharing more of my design work! ☺️ .',
-      techStack: ['Unity', 'C#', 'Blender', 'Unity Animator','Audacity', 'Freesound.org','Unity Asset'],
+      techStack: ['Figma', 'AI'],
       image: '/Level-layout1.png',
-      category: 'Level layout'
+      category: 'Level layout',
+      codeLink: 'https://www.linkedin.com/posts/karan-mehta-b392232a7_gamedesigner-gameart-map-activity-7405110557630078976-YMfq?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEnkxJ0BEriaxBPClujVSYI2sYqioS10akU',
+      liveLink: 'https://www.linkedin.com/in/karan-mehta-b392232a7/',
     },
+
+    {
+      id: 6,
+      title: 'UI Design',
+      description: 'Unveiling some UI concepts from Project: Chimera — a dark, science-horror world built around abandoned labs, failed experiments, and atmospheric tension. designed these screens to feel cold, isolated, and unsettling, using minimal text and strong visual cues to enhance immersion. These were created earlier, but revisiting them now reminds me how much fun it is to shape mood and storytelling through UI alone. For more images click on Code link .',
+      techStack: ['Figma', 'AI'],
+      image: '/Chimera.png',
+      category: 'UI',
+      codeLink: 'https://www.linkedin.com/posts/karan-mehta-b392232a7_gamedesign-leveldesign-horrorgame-activity-7404751591582642176-r7iA?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEnkxJ0BEriaxBPClujVSYI2sYqioS10akU',
+      liveLink: 'https://www.linkedin.com/in/karan-mehta-b392232a7/',
+    },
+
     
   ];
 
