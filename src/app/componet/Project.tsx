@@ -19,6 +19,7 @@ const Projects = () => {
       title: '3D Game Prototype',
       description: 'A fully functional 3D game demo built in Unity showcasing core gameplay mechanics. Features include: Player movement: Walking, sprinting; UI/UX systems: Health bars, interaction prompts; Interactive elements: Doors (standard & password-locked), torches, and collectible items; Combat system: Gun mechanics with shooting functionality; Inventory system: Item collection, storage, and usage',
       techStack: ['Unity (C#)', 'Blender', 'Audacity', 'VFX','UI/UX', 'AI tools'],
+      video:'/DEMO1.mp4',
       image: '/project2.png',
       codeLink: 'https://drive.google.com/file/d/17JNMvqHrlo6Tk77Mun9seEn_50gEZ4kX/view?usp=drive_link',
       liveLink: 'https://drive.google.com/file/d/17JNMvqHrlo6Tk77Mun9seEn_50gEZ4kX/view?usp=drive_link',
