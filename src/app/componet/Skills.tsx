@@ -9,6 +9,11 @@ const Skills = () => {
     title: 'Unity Engine',
   },
   {
+  img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg',
+  title: 'Unreal Engine',
+  },
+
+  {
     img: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg',
     title: 'C# (Gameplay Programming)',
   },
